@@ -69,8 +69,7 @@
                         {
                             "function": "enchant_randomly",
                             "enchantments": [
-                                "punch",
-                                "infinity"
+                                "quick_charge"
                             ]
                         }
                     ]
