@@ -1,175 +1,204 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 7
+      },
+      "bonus_rolls": {
+        "min": {
+          "min": 0,
+          "max": 1
+        },
+        "max": 1
+      },
+      "entries": [
         {
-            "rolls": {
-                "min": 1,
-                "max": 12
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 6,
-                    "name": "minecraft:iron_sword",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 6,
-                    "name": "minecraft:iron_axe",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 6,
-                    "name": "minecraft:bow",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 5,
-                    "name": "minecraft:crossbow",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 2,
-                    "name": "minecraft:shield",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 4,
-                    "name": "minecraft:iron_helmet",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 4,
-                    "name": "minecraft:iron_chestplate",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 4,
-                    "name": "minecraft:iron_leggings",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 4,
-                    "name": "minecraft:iron_boots",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:arrow",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 8,
-                                "max": 22
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:cooked_beef",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 12
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:cooked_porkchop",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 12
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:golden_apple",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:diamond_axe",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                }
-            ]
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 8
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

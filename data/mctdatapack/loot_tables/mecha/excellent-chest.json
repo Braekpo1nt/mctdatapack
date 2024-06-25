@@ -1,144 +1,234 @@
 {
-    "pools": [
-        {
-            "rolls": 3,
-            "entries": [
-                {
-                    "type": "item",
-                    "weight": 8,
-                    "name": "minecraft:diamond_sword",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "enchant_randomly",
-                            "enchantments": [
-                                "knockback",
-                                "fire_aspect"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 8,
-                    "name": "minecraft:diamond_axe",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "enchant_randomly",
-                            "enchantments": [
-                                "sharpness"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:bow",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "enchant_randomly",
-                            "enchantments": [
-                                "punch",
-                                "infinity",
-                                "flame"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 7,
-                    "name": "minecraft:crossbow",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "enchant_randomly",
-                            "enchantments": [
-                                "quick_charge"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 6,
-                    "name": "minecraft:diamond_chestplate",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 4,
-                    "name": "minecraft:golden_carrot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 4,
-                                "max": 12
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:enchanted_golden_apple",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 6,
-                    "name": "minecraft:golden_apple",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 8,
-                    "name": "minecraft:arrow",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 8,
-                                "max": 24
-                            }
-                        }
-                    ]
-                }
-            ]
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 7
+      },
+      "bonus_rolls": {
+        "min": {
+          "min": 0,
+          "max": 1
+        },
+        "max": {
+          "min": 1,
+          "max": 2
         }
-    ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "weight": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 7,
+                "max": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:harming"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:healing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
