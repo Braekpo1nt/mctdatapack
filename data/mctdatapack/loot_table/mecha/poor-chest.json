@@ -16,62 +16,62 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_leggings",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_boots",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_chestplate",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_helmet",
-          "weight": 2
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_leggings",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_boots",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_chestplate",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_helmet",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_leggings",
-          "weight": 5
+          "weight": 2.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_boots",
-          "weight": 5
+          "weight": 2.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_chestplate",
-          "weight": 5
+          "weight": 2.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_helmet",
-          "weight": 5
+          "weight": 2.5
         },
         {
           "type": "minecraft:item",
@@ -192,8 +192,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 6,
-                "max": 8
+                "min": 2,
+                "max": 3
               }
             }
           ]

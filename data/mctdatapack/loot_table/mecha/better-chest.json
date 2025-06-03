@@ -16,42 +16,42 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_leggings",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_boots",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_chestplate",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_helmet",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_leggings",
-          "weight": 4
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_boots",
-          "weight": 4
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_chestplate",
-          "weight": 4
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_helmet",
-          "weight": 4
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -76,22 +76,22 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "weight": 1
+          "weight": 0.5
         },
         {
           "type": "minecraft:item",
@@ -101,12 +101,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_axe",
-          "weight": 4
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_axe",
-          "weight": 2
+          "weight": 0
         },
         {
           "type": "minecraft:item",
@@ -197,8 +197,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 6,
-                "max": 8
+                "min": 2,
+                "max": 3
               }
             }
           ]
